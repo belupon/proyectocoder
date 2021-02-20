@@ -1,0 +1,88 @@
+@import "colores";
+@import "tamanios";
+
+
+
+$redes:(
+		instagram: $coloryellow,
+		facebook: $coloryellow);
+
+@each $redsocial, $color in $redes{
+		.btn--#{$redsocial} {
+		background-color:$colorpurple;
+		color:$coloryellow;
+		paddin:15px;
+		margin-bottom:15px;
+		border-radius:15px;
+		display:inline;}
+		}
+
+
+$tamañoTitulo:50px;
+$estiloLetra: "Baloo 2", cursive;
+
+h1 {
+			color: $colorpurple;
+			 font-size: $tamañoTitulo;
+			font-family: $estiloLetra;
+			transition: all 3s;
+			font-weight: 700;
+    		font-size: 70px;
+    		line-height: 80px;
+    		letter-spacing: -1px;
+			position: relative;
+    		margin:opx;
+			}
+
+
+ul.li.a {display:inline}
+
+
+.resumen { color: $colorpurple;
+				widht:$ancho/2;
+				font-family:$estiloLetra;}
+
+h2 {color: $colorpurple;
+		font-family: $estiloLetra;}
+
+
+.fechas { color: $colorpurple;
+		font-family: $estiloLetra;}
+
+
+.carousel-inner{ width:80%; height:10%}
+
+h2.historia {font-size: 30px;
+			font-family: $estiloLetra;
+			color:$colorpurple;}
+
+p.historia {
+			font-family:Fjalla One, sans-serif;
+			color:white;
+			widht:60%;
+			font-size: 14px;
+   			 line-height: 26px;}
+
+div.historia {font-family:Fjalla One, sans-serif;
+			color:white;
+			display:row;
+			widht:60%;
+			font-size: 14px;
+   			line-height: 26px;}
+
+h3.integrantes {font-size: 30px;
+				font-family: $estiloLetra;
+				color:$colorpurple;}
+
+nav {display:inline-block;
+	background-color: yellow}
+
+ul.li {display:inline}
+
+body {
+	background-color:black;
+	 width: 100%;}
+
+footer {display:inline-center;
+		color:blue;
+		background-color:$colorpurple;}

@@ -1,0 +1,85 @@
+.btn--instagram {
+  background-color: purple;
+  color: yellow;
+  paddin: 15px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  display: inline; }
+
+.btn--facebook {
+  background-color: purple;
+  color: yellow;
+  paddin: 15px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  display: inline; }
+
+h1 {
+  color: purple;
+  font-size: 50px;
+  font-family: "Baloo 2", cursive;
+  transition: all 3s;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 80px;
+  letter-spacing: -1px;
+  position: relative;
+  margin: opx; }
+
+  nav {display:inline-block;}
+
+li{
+  display: inline;
+  padding: 5px 10px;
+  font-size: 25px;
+  text-decoration: none;
+  font-family: "Baloo 2", cursive; 
+  color:purple;}
+
+.resumen {
+  color: purple;
+  widht: 360px;
+  font-family: "Baloo 2", cursive; }
+
+h2 {
+  color: purple;
+  font-family: "Baloo 2", cursive; }
+
+.fechas {
+  color: purple;
+  font-family: "Baloo 2", cursive; }
+
+.carousel-inner {
+  width: 80%;
+  height: 10%; }
+
+h2.historia {
+  font-size: 30px;
+  font-family: "Baloo 2", cursive;
+  color: purple; }
+
+p.historia {
+  font-family: Fjalla One, sans-serif;
+  color: white;
+  widht: 60%;
+  font-size: 14px;
+  line-height: 26px; }
+
+div.historia {
+  font-family: Fjalla One, sans-serif;
+  color: white;
+  display: row;
+  widht: 60%;
+  font-size: 14px;
+  line-height: 26px; }
+
+h3.integrantes {
+  font-size: 30px;
+  font-family: "Baloo 2", cursive;
+  color: purple; }
+
+body {
+  background-color: black;
+  width: 100%; }
+
+footer {display: block;}

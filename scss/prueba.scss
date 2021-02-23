@@ -23,8 +23,8 @@ $estiloLetra: "Baloo 2", cursive;
 
 h1 {
 			color: $colorpurple;
-			 font-size: $tamañoTitulo;
-			font-family: $estiloLetra;
+			 font-size:$tamañoTitulo;
+			font-family:'Overlock SC', cursive;;
 			transition: all 3s;
 			font-weight: 700;
     		font-size: 70px;
@@ -35,7 +35,8 @@ h1 {
 			}
 
 
-ul.li.a {display:inline}
+ul.li.a {display:inline;
+         color:$colorpurple}
 
 
 .resumen { color: $colorpurple;
@@ -74,15 +75,15 @@ h3.integrantes {font-size: 30px;
 				font-family: $estiloLetra;
 				color:$colorpurple;}
 
-nav {display:inline-block;
-	background-color: yellow}
 
-ul.li {display:inline}
+
+
 
 body {
 	background-color:black;
 	 width: 100%;}
 
-footer {display:inline-center;
+footer {display:block;
 		color:blue;
 		background-color:$colorpurple;}
+

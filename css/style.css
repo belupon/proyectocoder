@@ -17,7 +17,7 @@
 h1 {
   color: purple;
   font-size: 50px;
-  font-family: "Baloo 2", cursive;
+  font-family: 'Overlock SC', cursive;
   transition: all 3s;
   font-weight: 700;
   font-size: 70px;
@@ -28,7 +28,7 @@ h1 {
 
   nav {display:inline-block;}
 
-li{
+li.nav {
   display: inline;
   padding: 5px 10px;
   font-size: 25px;
@@ -74,9 +74,18 @@ div.historia {
   line-height: 26px; }
 
 h3.integrantes {
-  font-size: 30px;
-  font-family: "Baloo 2", cursive;
-  color: purple; }
+  font-size: 20px;
+  font-family: "Baloo 2", cursive ;
+  color: purple;
+  display:row;
+   }
+
+
+li.integrantes {font-size: 20px;
+                font-family:Fjalla One, sans-serif;
+                 color:white;
+                 font-size:15px;
+                 display:block;}
 
 body {
   background-color: black;

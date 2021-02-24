@@ -1,7 +1,7 @@
 .btn--instagram {
   background-color: purple;
   color: yellow;
-  paddin: 15px;
+  padding: 15px;
   margin-bottom: 15px;
   border-radius: 15px;
   display: inline; }
@@ -9,7 +9,7 @@
 .btn--facebook {
   background-color: purple;
   color: yellow;
-  paddin: 15px;
+  padding: 15px;
   margin-bottom: 15px;
   border-radius: 15px;
   display: inline; }
@@ -61,7 +61,7 @@ h2.historia {
 p.historia {
   font-family: Fjalla One, sans-serif;
   color: white;
-  widht: 60%;
+  width: 60%;
   font-size: 14px;
   line-height: 26px; }
 
@@ -69,7 +69,7 @@ div.historia {
   font-family: Fjalla One, sans-serif;
   color: white;
   display: row;
-  widht: 60%;
+  width: 90%;
   font-size: 14px;
   line-height: 26px; }
 
@@ -91,4 +91,21 @@ body {
   background-color: black;
   width: 100%; }
 
+
+
 footer {display: block;}
+
+@media only screen and (min-width: 601px)  {
+  ul.li.a { display:inline;
+  color: purple;
+  padding: 20px; }
+
+@media only screen and (max-width:320px)  {
+ ul.menu {display:block}
+li.nav {display:block;}
+ ul.li.a {display:block;}
+ body {width:290px}
+ header {width:290px}
+ main{width:290px}
+ iframe {width:290px}
+ }

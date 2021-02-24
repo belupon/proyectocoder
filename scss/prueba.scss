@@ -75,6 +75,7 @@ h3.integrantes {font-size: 30px;
 				font-family: $estiloLetra;
 				color:$colorpurple;}
 
+.fotos {display:inline; padding:2px}
 
 
 
@@ -87,3 +88,17 @@ footer {display:block;
 		color:blue;
 		background-color:$colorpurple;}
 
+@media only screen and (min-width: 601px)  {
+ ul.li.a { display:inline;
+  color: purple;
+  padding: 20px; }
+
+@media only screen and (max-width:320px)  {
+li.nav {display:block}
+ul.menu {display:block}
+ ul.li.a {display: block;}
+ body {width:290px}
+ header {width:290px}
+ main{width:290px}
+ iframe {width:290px}
+ }

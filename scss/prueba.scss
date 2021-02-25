@@ -2,22 +2,6 @@
 @import "tamanios";
 
 
-
-$redes:(
-		instagram: $coloryellow,
-		facebook: $coloryellow);
-
-@each $redsocial, $color in $redes{
-		.btn--#{$redsocial} {
-		background-color:$colorpurple;
-		color:$coloryellow;
-		paddin:15px;
-		margin-bottom:15px;
-		border-radius:15px;
-		display:inline;}
-		}
-
-
 $tamañoTitulo:50px;
 $estiloLetra: "Baloo 2", cursive;
 
@@ -35,8 +19,6 @@ h1 {
 			}
 
 
-ul.li.a {display:inline;
-         color:$colorpurple}
 
 
 .resumen { color: $colorpurple;
@@ -77,6 +59,27 @@ h3.integrantes {font-size: 30px;
 
 .fotos {display:inline; padding:2px}
 
+@media (max-width:768px)  {
+  
+  header label {display:block; }
+
+  .menu {position:absolute;
+        background:$purple;
+        width: 70%;
+        margin-left: -70%;
+        transition: all 0.5s;}
+
+  .menu ul {
+    flex-direction: column;
+  }
+  .menu li {
+    border-top: 1px solid purple;
+  }
+
+  #btn-menu:checked - .menu {
+    margin: 0;}
+  }
+
 
 
 
@@ -88,17 +91,3 @@ footer {display:block;
 		color:blue;
 		background-color:$colorpurple;}
 
-@media only screen and (min-width: 601px)  {
- ul.li.a { display:inline;
-  color: purple;
-  padding: 20px; }
-
-@media only screen and (max-width:320px)  {
-li.nav {display:block}
-ul.menu {display:block}
- ul.li.a {display: block;}
- body {width:290px}
- header {width:290px}
- main{width:290px}
- iframe {width:290px}
- }

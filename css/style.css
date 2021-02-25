@@ -101,11 +101,9 @@ footer {display: block;}
   padding: 20px; }
 
 @media only screen and (max-width:320px)  {
- ul.menu {display:block}
-li.nav {display:block;}
  ul.li.a {display:block;}
  body {width:290px}
- header {width:290px}
+ header {display: inline; width:290px}
  main{width:290px}
  iframe {width:290px}
  }

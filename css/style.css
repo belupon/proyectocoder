@@ -1,8 +1,6 @@
 #btn-menu {display:none;}
 
-.navbar navbar-expand-lg navbar-light bg-light {background-color: purple;
-                                                font-family:"Baloo 2", cursive;
-                                                  }
+
 
 li.nav-item {color:black;
             font-family:"Baloo 2", cursive;
@@ -76,7 +74,7 @@ ul.integrantes {font-size: 20px;
                  display:block;}
 
 body { margin:0;
-  background-color:black;
+  background-color: black;
   width: 100%; }
 
 

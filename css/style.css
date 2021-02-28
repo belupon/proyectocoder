@@ -69,7 +69,7 @@ h3.integrantes {
    }
 
 
-li.integrantes {font-size: 20px;
+ul.integrantes {font-size: 20px;
                 font-family:Fjalla One, sans-serif;
                  color:white;
                  font-size:15px;
@@ -81,25 +81,10 @@ body { margin:0;
 
 
 
-footer {display: block;}
+footer {display: inline;
+          background-color: purple;
+          width: 100%;
+          height: 100px
+        }
 
-@media (max-width:768px)  {
-  
-  header label {display:block; }
 
-  .menu {position:absolute;
-        background: purple;
-        width: 70%;
-        margin-left: -70%;
-        transition: all 0.5s;}
-
-  .menu ul {
-    flex-direction: column;
-  }
-  .menu li {
-    border-top: 1px solid purple;
-  }
-
-  #btn-menu:checked - .menu {
-    margin: 0;}
-  }

@@ -6,8 +6,10 @@ li.nav-item {color:black;
             font-family:"Baloo 2", cursive;
 }
 
+
+
 h1 {
-  color: purple;
+  color: yellow;
   font-size: 50px;
   font-family: 'Overlock SC', cursive;
   transition: all 3s;
@@ -16,7 +18,7 @@ h1 {
   line-height: 80px;
   letter-spacing: -1px;
   position: relative;
-  margin: 0px; }
+  margin-left: 90vh }
 
   
 
@@ -35,9 +37,11 @@ h2 {
   color: purple;
   font-family: "Baloo 2", cursive; }
 
+
+
 .carousel-inner {
   width: 80%;
-  height: 10%; }
+  height: 500px; }
 
 h2.historia {
   font-size: 30px;
@@ -74,9 +78,20 @@ ul.integrantes {font-size: 20px;
                  display:block;}
 
 body { margin:0;
-  background-color: black;
+ background-image:"../img/fondocolor.jpg"
   width: 100%; }
 
+div.tienda{display: inline-block;}
+
+div.hijo {content: auto;
+ border: solid 2px; color: black;
+width: 300px;
+ margin: 20px 10px 10px 10px;
+ display:inline-block;
+}
+
+div.vol {margin: 40px 40px 70px 40px;
+      display: inline-block;}
 
 
 footer {display: inline;

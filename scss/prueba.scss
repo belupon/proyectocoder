@@ -5,8 +5,107 @@
 $tamañoTitulo:50px;
 $estiloLetra: "Baloo 2", cursive;
 
+li.nav-item {color:black;
+            font-family:"Baloo 2", cursive;
+}
+
+
+
 h1 {
-			color: $colorpurple;
+  color: yellow;
+  font-size: 50px;
+  font-family: 'Overlock SC', cursive;
+  transition: all 3s;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 80px;
+  letter-spacing: -1px;
+  position: relative;
+  margin-left: 90vh }
+
+  
+
+
+.resumen {
+  color: $purple;
+  width: : 360px;
+  font-family: "Baloo 2", cursive; }
+
+
+h2 {
+  color: $purple;
+  font-family: "Baloo 2", cursive; }
+
+.fechas {
+  color: $purple;
+  font-family: "Baloo 2", cursive; }
+
+
+
+.carousel-inner {
+  width: 100%;
+  height: 10%; }
+
+h2.historia {
+  font-size: 30px;
+  font-family: $estiloLetra;
+  color:$purple; }
+
+p.historia {
+  font-family: Fjalla One, sans-serif;
+  color: white;
+  width: 60%;
+  font-size: 14px;
+  line-height: 26px; }
+
+div.historia {
+  font-family: Fjalla One, sans-serif;
+  color: white;
+  display: row;
+  width: 90%;
+  font-size: 14px;
+  line-height: 26px; }
+
+h3.integrantes {
+  font-size: 20px;
+  font-family: $estiloLetra ;
+  color: $purple;
+  display:row;
+   }
+
+
+ul.integrantes {font-size: 20px;
+                font-family:Fjalla One, sans-serif;
+                 color:white;
+                 font-size:15px;
+                 display:block;}
+
+body { margin:0;
+ background-image:"../img/fondocolor.jpg"
+  width: 100%; }
+
+div.tienda{display: inline-block;}
+
+div.hijo {content: auto;
+ border: solid 2px; color: black;
+width: 300px;
+ margin: 20px 10px 10px 10px;
+}
+
+div.vol {margin: 40px 40px 70px 40px;
+      display: inline-block;}
+
+
+footer {display: inline;
+          background-color: purple;
+          width: 100%;
+          height: 100px
+        }
+
+
+
+h1 {
+			color: yellow;
 			 font-size:$tamañoTitulo;
 			font-family:'Overlock SC', cursive;;
 			transition: all 3s;
@@ -40,7 +139,7 @@ h2 {color: $colorpurple;
 		font-family: $estiloLetra;}
 
 
-.carousel-inner{ width:80%; height:10%}
+.carousel-inner{ width:80%; height:500px}
 
 h2.historia {font-size: 30px;
 			font-family: $estiloLetra;
@@ -77,11 +176,4 @@ nav {width:100%}
 iframe{width: 80%}
 
 
- body {
-	background-color:;
-	 width: 100%;}
-
-footer {display:block;
-		color:blue;
-		background-color:$colorpurple;}
-}
+ 

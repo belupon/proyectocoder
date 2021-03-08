@@ -11,7 +11,7 @@
 h1 {
   color: yellow;
   font-size: 50px;
-  font-family: 'Overlock SC', cursive;
+  font-family:'Rum Raisin', sans-serif;
   transition: all 3s;
   font-weight: 700;
   font-size: 70px;
@@ -20,11 +20,12 @@ h1 {
   position: relative;
   margin-left: 90vh }
 
-  .nuestrasredes {font-family: Fjalla One, sans-serif;
+.nuestrasredes {font-family:'Rum Raisin', sans-serif;
                   color: #feed01;
                   text-align: center;
                   font-size: 40px;
-                  margin-top: 30px}
+                  margin-top: 30px;
+                  letter-spacing:5px}
 
 .seccionlogos {text-align: center}
 
@@ -34,13 +35,13 @@ h1 {
 
   iframe {margin-left: 40px; margin-right: 40px}
 
-  ul, li.slider {margin: 0;
-                padding: 0;
-                list-style: none}
+.navbar-brand:hover {color:#feed01;
+}
+.navbar-brand {transition: 3s}
 
-  ul.slider {position:relative;
-              width: 100%;
-              height: 200px;}
+
+
+
 
 .resumen { color:#ae3d83;
       font-family:"Baloo 2", cursive;
@@ -56,7 +57,7 @@ h1 {
 
 h2 {
   color: purple;
-  font-family: "Baloo 2", cursive;
+  font-family: 'Rum Raisin', sans-serif;
   font-size: 20px }
 
 .fechas {

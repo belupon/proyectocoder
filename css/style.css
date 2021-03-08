@@ -2,9 +2,9 @@
 
 
 
-li.nav-item {color:black;
+/*li.nav-item {color:black;
             font-family:"Baloo 2", cursive;
-}
+}*/
 
 
 
@@ -20,18 +20,44 @@ h1 {
   position: relative;
   margin-left: 90vh }
 
-  
+  .nuestrasredes {font-family: Fjalla One, sans-serif;
+                  color: #feed01;
+                  text-align: center;
+                  font-size: 40px;
+                  margin-top: 30px}
+
+.seccionlogos {text-align: center}
+
+.logos {margin-left: 20px; margin-right: 20px; margin-bottom: 20px}
+
+.videos { padding-left: 30px; padding-right: 30px }
+
+  iframe {margin-left: 40px; margin-right: 40px}
+
+  ul, li.slider {margin: 0;
+                padding: 0;
+                list-style: none}
+
+  ul.slider {position:relative;
+              width: 100%;
+              height: 200px;}
+
+.resumen { color:#ae3d83;
+      font-family:"Baloo 2", cursive;
+      font-size:30px;
+      text-align: center;}
+
+ .temas {color:#ae3d83;
+      font-family:"Baloo 2", cursive;
+      font-size:30px}
 
 
-.resumen {
-  color: purple;
-  width: : 360px;
-  font-family: "Baloo 2", cursive; }
 
 
 h2 {
   color: purple;
-  font-family: "Baloo 2", cursive; }
+  font-family: "Baloo 2", cursive;
+  font-size: 20px }
 
 .fechas {
   color: purple;
@@ -44,27 +70,23 @@ h2 {
   width: 95%;
   height: 600px; }
 
-h2.historia {
-  font-size: 30px;
-  font-family: "Baloo 2", cursive;
-  color: purple; }
+
 
 p.historia {
   font-family: Fjalla One, sans-serif;
-  color: white;
-  width: 60%;
+  color:#7b7b7b;
   font-size: 14px;
   line-height: 26px; }
 
 div.historia {
   font-family: Fjalla One, sans-serif;
-  color: white;
-  display: row;
-  width: 90%;
+  margin-left: 20px;
+  color:#7b7b7b;
   font-size: 14px;
   line-height: 26px; }
 
 h3.integrantes {
+  margin-left: 20px;
   font-size: 20px;
   font-family: "Baloo 2", cursive ;
   color: purple;
@@ -74,31 +96,41 @@ h3.integrantes {
 
 ul.integrantes {font-size: 20px;
                 font-family:Fjalla One, sans-serif;
-                 color:white;
+                 color:#7b7b7b;
                  font-size:15px;
-                 display:block;}
+                 display:block;
+                 margin-left: 20px;}
 
-body { margin:0;
- background-image:"../img/fondocolor.jpg"
-  width: 100%; }
 
 div.tienda{display: inline-block;}
 
 div.hijo {content: auto;
- border: solid 2px; color: black;
-width: 300px;
+ border: solid 2px white; color:white;
  margin: 20px 10px 10px 10px;
  display:inline-block;
+
+}
+
+img.tienda {
+  margin-bottom: 20px
 }
 
 div.vol {margin: 40px 40px 70px 40px;
       display: inline-block;}
 
+html {height: 100%}      
 
-footer {display: inline;
-          background-color: purple;
+body {background-color: black;
+      width: 100%;
+      
+      height: 100% }
+
+
+footer {
           width: 100%;
-          height: 100px
+          background-color: #393535;
+          margin-top: 30px;
+
         }
 
 

@@ -14,7 +14,7 @@ li.nav-item {color:black;
 h1 {
   color: yellow;
   font-size: 50px;
-  font-family: 'Overlock SC', cursive;
+  font-family: 'Rum Raisin', sans-serif;
   transition: all 3s;
   font-weight: 700;
   font-size: 70px;
@@ -23,21 +23,46 @@ h1 {
   position: relative;
   margin-left: 90vh }
 
+  .nuestrasredes {font-family:'Rum Raisin', sans-serif;
+                  color: #feed01;
+                  text-align: center;
+                  font-size: 40px;
+                  margin-top: 30px;
+                  letter-spacing:5px}
+
+.seccionlogos {text-align: center}
+
+.logos {margin-left: 20px; margin-right: 20px; margin-bottom: 20px}
+
+.videos { padding-left: 30px; padding-right: 30px }
+
+iframe {margin-left: 40px; margin-right: 40px}
+
+.navbar-brand:hover {color:#feed01;
+}
+.navbar-brand {transition: 3s}
+
+
+
   
 
 
-.resumen { color:$colorpurple;
+.resumen { color:#aed83;
 			font-family:$estiloLetra;
-			font-size:30px }
+			font-size:30px;
+      text-align:center; }
 
- .temas {color:$colorpurple;
+ .temas {color::#aed83;
 			font-family:$estiloLetra;
 			font-size:30px}
 
 
 h2 {
   color: $purple;
-  font-family: "Baloo 2", cursive; }
+  font-family: 'Rum Raisin', sans-serif;
+  font-size: 40px;
+  margin-left: 85vh}
+   
 
 .fechas {
   color: $purple;
@@ -46,13 +71,10 @@ h2 {
 
 
 .carousel-inner {
-  width: 100%;
-  height: 10%; }
+  margin: 20px 70px 20px 20px;
+  width: 95%;
+  height: 600px; }
 
-h2.historia {
-  font-size: 30px;
-  font-family: $estiloLetra;
-  color:$purple; }
 
 p.historia {
   font-family: Fjalla One, sans-serif;
@@ -63,9 +85,8 @@ p.historia {
 
 div.historia {
   font-family: Fjalla One, sans-serif;
-  color: white;
-  display: row;
-  width: 90%;
+   margin-left: 20px;
+  color:#7b7b7b;
   font-size: 14px;
   line-height: 26px; }
 
@@ -79,9 +100,10 @@ h3.integrantes {
 
 ul.integrantes {font-size: 20px;
                 font-family:Fjalla One, sans-serif;
-                 color:white;
+                 color:#7b7b7b;
                  font-size:15px;
-                 display:block;}
+                 display:block;
+                 margin-left: 20px;}
 
 body { margin:0;
  background-color:black;
@@ -89,10 +111,10 @@ body { margin:0;
 
 div.tienda{display: inline-block;}
 
-div.hijo {content: auto;
- border: solid 2px; color: black;
-width: 300px;
+div.hijo {{content: auto;
+ border: solid 2px white; color:white;
  margin: 20px 10px 10px 10px;
+ display:inline-block;
 }
 
 div.vol {margin: 40px 40px 70px 40px;
@@ -100,58 +122,36 @@ div.vol {margin: 40px 40px 70px 40px;
 
 
 
-
-h1 {
-			color: yellow;
-			 font-size:$tamañoTitulo;
-			font-family:'Overlock SC', cursive;;
-			transition: all 3s;
-			font-weight: 700;
-    		font-size: 70px;
-    		line-height: 80px;
-    		letter-spacing: -1px;
-			position: relative;
-    		margin:opx;
-    		padding: 10px 20px 10px 20px;
-			}
-
-
-
 h2 {color: $colorpurple;
 		font-family: $estiloLetra;}
 
-
-.fechas { color: $colorpurple;
-		font-family: $estiloLetra;}
-
-
-.carousel-inner{ margin: 20px 70px 20px 20px;
-  				width: 95%;
-  				height: 600px; }
 
 h2.historia {font-size: 30px;
 			font-family: $estiloLetra;
 			color:$colorpurple;}
 
-p.historia {
-			font-family:Fjalla One, sans-serif;
-			color:white;
-			widht:60%;
-			font-size: 14px;
-   			 line-height: 26px;}
-
-div.historia {font-family:Fjalla One, sans-serif;
-			color:white;
-			display:row;
-			widht:60%;
-			font-size: 14px;
-   			line-height: 26px;}
 
 h3.integrantes {font-size: 30px;
 				font-family: $estiloLetra;
 				color:$colorpurple;}
 
 .fotos {display:inline; padding:2px}
+
+footer {
+          width: 100%;
+          background-color: #393535;
+          margin-top: 30px;
+
+        }
+
+@media (max-widht:768px){
+	body{widht:100%;
+		height:auto}
+	footer {widht:100%;
+			height:auto}
+		
+	
+}
 
 
 

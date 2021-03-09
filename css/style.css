@@ -12,13 +12,15 @@ h1 {
   color: yellow;
   font-size: 50px;
   font-family:'Rum Raisin', sans-serif;
-  transition: all 3s;
   font-weight: 700;
   font-size: 70px;
   line-height: 80px;
   letter-spacing: -1px;
-  position: relative;
-  margin-left: 90vh }
+  text-align: center }
+
+
+  
+
 
 .nuestrasredes {font-family:'Rum Raisin', sans-serif;
                   color: #feed01;
@@ -35,9 +37,13 @@ h1 {
 
   iframe {margin-left: 40px; margin-right: 40px}
 
+.navbar-brand {font-family:'Rum Raisin', sans-serif;
+                color:white;
+                transition: all 2s;  }
+
 .navbar-brand:hover {color:#feed01;
 }
-.navbar-brand {transition: 3s}
+
 
 
 
@@ -59,7 +65,7 @@ h2 {
   color: purple;
   font-family: 'Rum Raisin', sans-serif;
   font-size: 40px;
-margin-left: 85vh}
+text-align: center}
 
 .fechas {
   color: purple;
@@ -120,7 +126,8 @@ img.tienda {
 div.vol {margin: 40px 40px 70px 40px;
       display: inline-block;}
 
-html {height: 100%}      
+html {height: 100%;
+      width: 100%}      
 
 body {background-color: black;
       width: 100%;
@@ -135,4 +142,19 @@ footer {
 
         }
 
+  @media (max-width:768px){
+  header {width:100%; justify-content: center;}
+  body{width:100%;}
+  .footer {width:100; height: auto; justify-content: center}
+  html {width: 100%}
+  iframe {width: auto}
+  h1 {text-align:center}
+
+
+@media (min-width: 768px){
+  header {width:100%}
+  body{width:100%;}
+  .footer {width:100%}
+  html {width: 100%}
+}
 

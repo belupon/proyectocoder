@@ -25,7 +25,7 @@
 	
 </head>
 	<header>
-		<div class="d-xs-none d-sm-none d-md-block d-lg-block">
+		<div class="d-none d-lg-block d-xs-none d-sm-none d-md-block">
 			<nav class="navbar navbar-dark bg-dark" >
 				<div class="container-fluid">
 					<img src="img/logomabel-removebg-preview.png" width="100px" height="auto"></img>
@@ -43,9 +43,21 @@
 			<nav class="navbar navbar-dark bg-dark">
 				<div class="container-fluid">
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-      				<span class="navbar-toggler-icon"></span>
-    			</button>
-				</div>
+      				<span class="navbar-toggler-icon">
+      					<ul class="children">
+						<select name="talle" id="talle">
+						<option>
+							<img src="img/logomabel-remove-preview.png" width="20px"
+							height="auto">
+						</option>
+						<option >
+							<a href="pages/banda.html"> Inicio</a>
+						</option>
+						<option value="L">L</option>
+						</select>
+					</span>
+					</div>
+				</button>
 
 			</nav>
 

@@ -41,7 +41,7 @@ h1 {
                 color:white;
                 transition: all 2s;  }
 
-.navbar-brand:hover {color:#feed01;
+.navbar-brand:hover {color:#feed01 !important;
 }
 
 
@@ -145,7 +145,7 @@ footer {
   @media (max-width:768px){
   header {width:100%; justify-content: center;}
   body{width:100%;}
-  .footer {width:100; height: auto; justify-content: center}
+  .footer {width:100% !important;}
   html {width: 100%}
   iframe {width: auto}
   h1 {text-align:center}
@@ -154,7 +154,7 @@ footer {
 @media (min-width: 768px){
   header {width:100%}
   body{width:100%;}
-  .footer {width:100%}
+  .footer {width:100}
   html {width: 100%}
 }
 

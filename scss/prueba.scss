@@ -3,18 +3,14 @@
 
 
 $tamañoTitulo:50px;
-$estiloLetra: "Baloo 2", cursive;
-
-li.nav-item {color:black;
-            font-family:"Baloo 2", cursive;
-}
+$estiloLetra: 'Rum Raisin', sans-serif;
 
 
 
 h1 {
   color: yellow;
   font-size: 50px;
-  font-family: 'Rum Raisin', sans-serif;
+  font-family: $estiloLetra;
   transition: all 3s;
   font-weight: 700;
   font-size: 70px;
@@ -23,7 +19,7 @@ h1 {
   position: relative;
   margin-left: 90vh }
 
-  .nuestrasredes {font-family:'Rum Raisin', sans-serif;
+  .nuestrasredes {font-family:$estiloLetra;
                   color: #feed01;
                   text-align: center;
                   font-size: 40px;

@@ -14,14 +14,19 @@ h1 {
 
 .nuestrasredes {font-family:'Rum Raisin', sans-serif;
                   color: #feed01;
-                  text-align: center;
+                  text-align: right;
                   font-size: 40px;
-                  margin-top: 30px;
-                  letter-spacing:5px}
+                  margin-right: 40px;
+                  letter-spacing:5px;
+                  margin-top: 200px }
 
-.seccionlogos {text-align: center}
+.logofooter {margin-left: 20px; margin-top: 200px !important}
 
-.logos {margin-left: 20px; margin-right: 20px; margin-bottom: 20px}
+
+.logos {margin-left: 20px; margin-right: 40px;}
+
+.seccionlogos {text-align: right; margin-right: 20px; margin-bottom: 10px;}
+
 
 .videos { padding-left: 30px; padding-right: 30px }
 
@@ -129,9 +134,12 @@ body {background-color: black;
 footer {
           width: 100%;
           background-color: #393535;
-          margin-top: 30px;
-
-        }
+         margin-top: 30px;
+}
+ 
+ .belu {font-family:Fjalla One, sans-serif;
+        color:white !important;
+        text-align: center !important; }       
 
   @media (max-width:768px){
   header {width:100%; justify-content: center;}

@@ -142,8 +142,9 @@ footer {
  
  .belu {font-family:Fjalla One, sans-serif;
         color:white !important;
-        text-align: center !important; }       
+        text-align: center !important; }  
 
+ 
   @media (max-width:768px){
   header {width:100%; justify-content: center;}
   body{width:100%;}
@@ -159,6 +160,6 @@ footer {
   .seccionlogos{text-align: center;
     padding-left: 100px}
   .nuestrasredes{text-align: center}
-  .logoFooter {text-align: center; padding-left: 150px}}
+  .logoFooter {text-align: center; padding-left:35px}}
 
 

@@ -156,7 +156,9 @@ footer {
   .temas {font-size: 10px}
   .belu{text-align: center}
   .redes{text-align: center}
-  .seccionlogos{text-align: center}
-  .nuestrasredes{text-align: center}}
+  .seccionlogos{text-align: center;
+    padding-left: 100px}
+  .nuestrasredes{text-align: center}
+  .logoFooter {text-align: center; padding-left: 150px}}
 
 
